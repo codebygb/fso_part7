@@ -1,0 +1,30 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 1rem;
+  flex: 1;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.user {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 50ch 1fr;
+  font-size: x-large;
+}
+
+.user-name {
+  color: #fff;
+}
+
+.user-blogs {
+  color: aqua;
+}

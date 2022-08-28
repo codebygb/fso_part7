@@ -1,0 +1,17 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 1rem;
+  flex: 1;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+.like {
+  cursor: pointer;
+}
+.blog-list .blog-card-title {
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.app {
+  margin-left: 5rem;
+  height: 100vh;
+  transition: all 0.5s;
+  z-index: 0;
+  position: relative;
+}
